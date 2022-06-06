@@ -33,7 +33,7 @@ body {
 }
 
 .main-index {
-  background: #FFFFFF url("/images/index-background.jpg") no-repeat;
+  background: #FFFFFF url("../images/index-background.jpg") no-repeat;
   background-size: 100% auto;
   color: #000000;
   text-align: center;
@@ -42,13 +42,13 @@ body {
 .index-welcome{
   width: 458px;
   height: 352px;
-  background:url("/images/welcome.svg") no-repeat;
+  background:url("../images/welcome.svg") no-repeat;
 
 }
 .index-divider{
   width: 1200px;
   height: 57px;
-  background: url("/images/divider.svg") no-repeat;
+  background: url("../images/divider.svg") no-repeat;
 }
 .blue-background{
   background: #82B3D3;
@@ -73,7 +73,7 @@ body {
   text-transform: uppercase;
 }
 .subscribe{
-  background: #000000 url("/images/subscribe-background.jpg") no-repeat;
+  background: #000000 url("../images/subscribe-background.jpg") no-repeat;
   background-size: 100% auto;
   color:#FFFFFF;
 }
@@ -90,7 +90,7 @@ body {
   background: #FFFFFF;
 }
 .catalog-form{
-  background: #000000 url("/images/catalog-background.jpg") no-repeat;
+  background: #000000 url("../images/catalog-background.jpg") no-repeat;
   background-size: 100% auto;
   color: #FFFFFF;
 }
