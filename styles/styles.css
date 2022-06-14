@@ -25,16 +25,20 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #000000;
-  background: #FFFFFF;
-
+  background: #F2F2F2;
   overflow-x: hidden;
-
   margin: 0;
+  height: 100%;
+}
+.body-container{
+  width: 1200px;
+  margin: 0 auto;
+  color: #000000;
+  background: #FFFFFF;
   display: flex;
   flex-direction: column;
   min-height: 100%;
 }
-
 .page-header {
   padding: 0 70px;
 }
@@ -100,7 +104,6 @@ body {
 }
 .index-container{
   width: 100%;
-  height: 282px;
 }
 .title-text{
   font-size: 30px;
@@ -115,21 +118,32 @@ body {
 }
 .reasons-description{
   margin:0 auto;
+  padding-bottom: 98px;
 }
 .reasons{
   margin:0 auto;
   width: 100%;
-  height: 1535px;
 }
 .reasons-list{
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin:0;
   padding:0;
 }
+.reasons-item{
+  display: flex;
+  flex-wrap: wrap;
+}
 .blue-background{
   background: #82B3D3;
   color: #FFFFFF;
+}
+.block{
+  width:400px;
+  display:flex;
+  flex-direction: column;
+
 }
 .reasons-item-title{
   font-size: 24px;
@@ -142,11 +156,18 @@ body {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+  color:#333333;
+}
+.blue-background .reasons-item-description{
+  color: #FFFFFF;
+}
+.reasons-item-list{
+  display: flex;
+  list-style: none;
 }
 .search{
   margin:0 auto;
   width: 100%;
-  height: 417px;
 }
 .search > .title-text{
   padding: 91px 0 29px;
@@ -157,14 +178,13 @@ body {
   padding-bottom: 56px;
 }
 .search-button{
-  margin: 0 auto;
+  margin: 0 auto 93px;
 }
 .subscribe{
   background: #000000 url("../images/subscribe-background.jpg") no-repeat;
   background-size: 100% auto;
   color:#FFFFFF;
   width:100%;
-  height:411px;
   margin:0 auto;
 }
 .subscribe .title-text{
@@ -174,6 +194,10 @@ body {
 .subscribe p{
   margin: 0 auto;
   padding-bottom: 46px;
+}
+.subscribe-form{
+  margin-bottom: 94px;
+  display:block;
 }
 .page-footer-container{
   width: 100%;
@@ -321,7 +345,6 @@ body {
 .catalog-subscribe{
   text-align: center;
   width:100%;
-  height:411px;
   margin:0 auto;
 }
 .catalog-subscribe p{
@@ -332,8 +355,5 @@ body {
 .catalog-subscribe .title-text{
   padding: 94px 0 29px;
   margin: 0 auto;
-}
-.reasons-item-description{
-  color:#333333;
 }
 
