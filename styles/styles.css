@@ -101,10 +101,6 @@ body {
   min-width: 33px;
   min-height: 26px;
 }
-.page-container{
-  width: 100%;
-  margin: 0 auto;
-}
 .main-index {
   background: #FFFFFF url("../images/index-background.jpg") no-repeat;
   background-size: 100% 485px;
@@ -142,10 +138,6 @@ body {
 .reasons-description{
   margin:0 auto;
   padding-bottom: 98px;
-}
-.reasons{
-  margin:0 auto;
-  width: 100%;
 }
 .reasons-list{
   display: flex;
@@ -193,6 +185,9 @@ body {
   margin:0 auto 30px;
   padding:0;
   max-width: 230px;
+}
+.reasons-item-image-container{
+  display: flex;
 }
 .block span{
   margin-bottom: 30px;
@@ -259,7 +254,7 @@ body {
 .subscribe-form{
   display:block;
 }
-.page-footer-container{
+.page-footer{
   margin: 0 auto;
   display: flex;
   padding:40px 70px 30px;
@@ -330,13 +325,13 @@ body {
 }
 .catalog-hotels{
   width: 100%;
-  margin:0 auto;
+  padding:0 72px 0 73px;
 }
 .catalog-hotels-header{
   display: flex;
   align-items: center;
   margin: 0 auto;
-  padding: 50px 71px 56px 72px;
+  padding: 50px 0 56px 0;
   justify-content: space-between;
 }
 .catalog-hotels-header-buttons{
@@ -358,14 +353,13 @@ body {
 }
 .product-list{
   display:flex;
-  padding: 0 71px 66px 73px;
+  padding: 0 0 66px 0;
   margin:0 auto;
   list-style: none;
   flex-wrap: wrap;
 }
 .product-card{
   width:340px;
-  height:438px;
 }
 .product-card-link{
   font-size: 24px;
@@ -396,11 +390,10 @@ body {
 }
 .catalog-divider-container{
   height:1px;
-  padding: 0 72px 30px 73px;
+  padding: 0 0 30px 0;
 }
 .pagination-container{
-  height:60px;
-  margin: 0 71px 25px 73px;
+  margin: 0 0 25px 0;
   display:flex;
   align-items: center;
   justify-content: space-between;
