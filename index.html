@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="styles/styles.css">
-  <link rel="icon" href="images/favicon.ico" type="image/svg+xml">
+  <link rel="icon" href="images/favicon.png" type="image/png" sizes="32x32">
 </head>
 <body>
 <div class="body-container">
@@ -18,7 +18,7 @@
           <a class="navigation-link active" href="#">Главная</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="">О седоне</a>
+          <a class="navigation-link" href="#">О седоне</a>
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="catalog.html">Гостиницы</a>
@@ -41,7 +41,7 @@
           </a>
         </li>
         <li class="navigation-item">
-          <button class="navigation-button brown-button">Хочу сюда!</button>
+          <button class="navigation-button brown-button" type="button">Хочу сюда!</button>
         </li>
       </ul>
     </nav>
@@ -152,7 +152,7 @@
       <p>
         Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне
       </p>
-      <button class="search-button brown-button">Поиск гостиницы в Седоне</button>
+      <button class="search-button brown-button" type="button">Поиск гостиницы в Седоне</button>
     </section>
 
     <section class="subscribe">
@@ -168,7 +168,7 @@
       <form class="subscribe-form" action="#" method="post">
         <label for="e-mail" class="visually-hidden">Ваш e-mail</label>
         <input class="subscribe-input" type="email" name="e-mail" id="e-mail" placeholder="Ваш e-mail" required>
-        <button class="subscribe-button blue-button" type="submit">Подписаться</button>
+        <button class="subscribe-button blue-button" type="submit" >Подписаться</button>
       </form>
     </section>
   </main>
@@ -237,14 +237,14 @@
           <div class="field-group">
             <label class="modal-form-label" for="arrival-field">Дата заезда:</label>
             <label class="modal-input-date-wrapper">
-              <input class="date-field modal-input" type="text" id="arrival-field" name="arrival-field" placeholder="Укажите дату">
+              <input class="date-field modal-input" type="text" id="arrival-field" name="arrival-field" placeholder="Укажите дату" required>
               <img src="images/index-modal/date.svg" alt="Дата">
             </label>
           </div>
           <p class="message warning">Мы не можем отправить вас в прошлое.</p>
           <p class="field-group">
             <label class="modal-form-label" for="departure-field">Дата выезда:</label>
-            <input class="date-field modal-input" type="text" id="departure-field" name="departure-field" placeholder="Укажите дату">
+            <input class="date-field modal-input" type="text" id="departure-field" name="departure-field" placeholder="Укажите дату" required>
           </p>
           <p class="message">На эти даты есть свободные номера. Пока есть.</p>
           <div class="field-group-container">
@@ -278,7 +278,7 @@
                 </div>
               </div>
               <label class="modal-input-wrapper">
-                <input class="modal-input" type="text" id="children" name="children" placeholder="1">
+                <input class="modal-input" type="text" id="children" name="children" placeholder="1" required>
                 <div class="modal-input-container">
                   <svg aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z" fill="black"/>
